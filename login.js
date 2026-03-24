@@ -19,7 +19,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
     else if(contactNum == "01879723722" && pinNum == "48301") {
         // alert("Login Successful");
         // window.location.replace("/home.html")
-        window.location.assign("/home.html")
+        window.location.assign("home.html")
     }
     else {
         alert("Login Failed");
